@@ -1,3 +1,3 @@
 <tab name="basicPluginTab" text="Basic Plugin" icon="/icons/basicplugin_logo_large.png">
-	<label name="onlyLabel" alignment="center" text="Congratulations, you created a FrontlineSMS plugin!" weightx="1" weighty="1"/>
+	<label name="onlyLabel" alignment="center" text="i18n.basicplugin.congrats" weightx="1" weighty="1"/>
 </tab>

@@ -9,7 +9,7 @@ import net.frontlinesms.ui.UiGeneratorController;
 
 import org.springframework.context.ApplicationContext;
 
-@PluginControllerProperties(name = "Basic Plugin", iconPath = "/icons/basicplugin_logo_small.png", springConfigLocation = "classpath:net/frontlinesms/plugins/basicplugin/basicplugin-spring-hibernate.xml", hibernateConfigPath = "classpath:net/frontlinesms/plugins/basicplugin/basicplugin.hibernate.cfg.xml")
+@PluginControllerProperties(name = "Basic Plugin", iconPath = "/icons/basicplugin_logo_small.png", springConfigLocation = "classpath:net/frontlinesms/plugins/basicplugin/basicplugin-spring-hibernate.xml", hibernateConfigPath = "classpath:net/frontlinesms/plugins/basicplugin/basicplugin.hibernate.cfg.xml", i18nKey="basicplugin.plugin.name")
 public class BasicPluginPluginController extends BasePluginController {
 
 	private ApplicationContext appCon;
